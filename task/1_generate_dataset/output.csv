@@ -1,0 +1,3 @@
+id,empId,firstName,lastName,email,designationName,departmentDescription,leaveIssuerId,leaveIssuerFirstName,leaveIssuerLastName,startDate,endDate,leaveDays,reason,status,leaveTypeName,createdAt,updatedAt
+2661,503,Rikesh,Shrestha,rikeshshrestha@lftechnology.com,Manager,Engineering,405,Lorene,Rawcliffe,2024-05-03,2024-05-03,1,Leave,APPROVED,Leave Without Pay,2024-05-02T04:41:49.000Z,2024-05-02T04:41:49.000Z
+2659,561,Sudip,Kunwar,sudipkunwar@lftechnology.com,Associate Software Engineer,Engineering,472,Nihal,Maskey,2024-05-02,2024-05-02,1,Sick leave,REQUESTED,Sick,2024-05-02T04:11:25.000Z,2024-05-02T04:11:25.000Z

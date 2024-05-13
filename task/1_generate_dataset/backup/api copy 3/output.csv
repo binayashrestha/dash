@@ -1,0 +1,11 @@
+id,empId,firstName,lastName,email,designationName,departmentDescription,leaveIssuerId,leaveIssuerFirstName,leaveIssuerLastName,startDate,endDate,leaveDays,reason,status,leaveTypeName,createdAt,updatedAt
+2661,503,Rikesh,Shrestha,rikeshshrestha@lftechnology.com,Manager,Engineering,405,Lorene,Rawcliffe,2024-05-03,2024-05-03,1,Leave,APPROVED,Leave Without Pay,2024-05-02T04:41:49.000Z,2024-05-02T04:41:49.000Z
+2662,517,Lizz,Pfertner,biplapbhattarai@lftechnology.com,Associate Software Engineer,Engineering,526,Anwesh,Budhathoki,2024-05-02,2024-05-02,1,Sick L,APPROVED,Discretionary,2024-05-02T04:46:07.000Z,2024-05-02T04:46:07.000Z
+2660,44233314,Oshin,Gansi,oshingansi@lftechnology.com,Senior Software Engineer,Engineering,571,Samir,Alam,2024-05-02,2024-05-02,1,abcd,REQUESTED,Discretionary,2024-05-02T04:33:56.000Z,2024-05-02T04:33:56.000Z
+2659,561,Sudip,Kunwar,sudipkunwar@lftechnology.com,Associate Software Engineer,Engineering,472,Nihal,Maskey,2024-05-02,2024-05-02,1,Sick leave,REQUESTED,Sick,2024-05-02T04:11:25.000Z,2024-05-02T04:11:25.000Z
+2655,512,Cal,Vokins,kailashraj@lftechnology.com,Solution Architect,Engineering,472,Nihal,Maskey,2024-05-02,2024-05-02,1,xx,REQUESTED,Discretionary,2024-04-14T14:12:33.000Z,2024-04-14T14:12:33.000Z
+2639,512,Cal,Vokins,kailashraj@lftechnology.com,Solution Architect,Engineering,472,Nihal,Maskey,2024-05-01,2024-05-01,1,dwdw,REQUESTED,Sick,2024-04-04T08:24:04.000Z,2024-04-04T08:24:04.000Z
+2630,512,Cal,Vokins,kailashraj@lftechnology.com,Solution Architect,Engineering,472,Nihal,Maskey,2024-04-25,2024-04-25,1,fgfgf,REQUESTED,Discretionary,2024-03-26T07:57:41.000Z,2024-03-26T07:57:41.000Z
+2654,131,Srijana,Shrestha,srijanashrestha123@lftechnology.com,Software Engineer,HR and Administration,697,Susanna,Gurung,2024-04-23,2024-04-23,1,x,APPROVED,Leave Without Pay,2024-04-14T05:33:22.000Z,2024-04-14T05:33:22.000Z
+2653,131,Srijana,Shrestha,srijanashrestha123@lftechnology.com,Software Engineer,HR and Administration,697,Susanna,Gurung,2024-04-23,2024-04-23,1,x,REJECTED,Discretionary,2024-04-14T05:33:10.000Z,2024-04-14T05:33:10.000Z
+2638,131,Srijana,Shrestha,srijanashrestha123@lftechnology.com,Software Engineer,HR and Administration,697,Susanna,Gurung,2024-04-22,2024-04-22,1,i want,CANCELLED,Discretionary,2024-04-04T08:22:49.000Z,2024-04-04T08:22:49.000Z
