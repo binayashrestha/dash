@@ -5,22 +5,11 @@ import dash_bootstrap_components as dbc
 from dash_bootstrap_templates import ThemeChangerAIO, template_from_url
 import dash_ag_grid as dag
 
-# df = px.data.gapminder()
-import pandas as pd
+df = px.data.gapminder()
+years = df.year.unique()
+continents = df.continent.unique()
 
-# Specify the URL of the CSV file
-url = "https://raw.githubusercontent.com/binayashrestha/dash/main/task/1_generate_dataset/filtered_merged_output.csv"
 
-# Read the CSV file from the URL into a DataFrame
-df = pd.read_csv(url)
-# Convert the 'startDate' column to datetime format
-df['startDate'] = pd.to_datetime(df['startDate'])
-
-# Extract the year into a new column
-df['startYear'] = df['startDate'].dt.year
-
-years = df.startYear.unique()
-continents = df.departmentDescription.unique()
 
 
 # 1. External Stylesheets Configuration:
@@ -100,7 +89,7 @@ slider = html.Div(
             id="years",
             marks=None,
             tooltip={"placement": "bottom", "always_visible": True},
-            value=[years[1], years[-1]],
+            value=[years[2], years[-2]],
             className="p-0",
         ),
     ],
@@ -174,7 +163,7 @@ def update(indicator, continent, yrs, theme, color_mode_switch_on):
     theme_name = template_from_url(theme)
     template_name = theme_name if color_mode_switch_on else theme_name + "_dark"
 
-    dff = df[df.startYear.between(yrs[0], yrs[1])]
+    dff = df[df.year.between(yrs[0], yrs[1])]
     dff = dff[dff.continent.isin(continent)]
 
     fig = px.line(
